@@ -1,0 +1,57 @@
+# Python files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+
+# Virtual Environment
+venv/
+.env
+*.env
+
+# Django migrations
+**/migrations/*
+!**/migrations/__init__.py
+
+# Database and cache
+db.sqlite3
+*.log
+*.pot
+*.py[co]
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Media and Static files
+media/
+staticfiles/
+*.bak
+
+# Compiled files
+*.egg-info/
+*.dist-info/
+build/
+dist/
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+
+# Django secret key and credentials
+.env
+config/settings/local.py
+config/settings/dev.py
+
+# Logs
+logs/
+*.log
+logfile.*
+
+# Pytest and testing
+.pytest_cache/
+junitxml/
